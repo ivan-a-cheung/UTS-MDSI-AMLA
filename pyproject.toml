@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nba-kaggle"
+version = "0.1.0"
+description = "mdsi_amla_spring_2023_kaggle_at1"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "nba_kaggle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
